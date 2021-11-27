@@ -4,7 +4,7 @@
 	         AnyLogic Project File 
 *************************************************	         
 -->
-<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="8.5.2.202001241833" AlpVersion="8.5.1">
+<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="8.7.8.202111151814" AlpVersion="8.7.2">
 <Model>
 	<Id>1546810957910</Id>
 	<Name><![CDATA[air tranportation]]></Name>
@@ -18436,7 +18436,7 @@ return sum2;]]></Body>
 
 			<EmbeddedObjects>
 				<EmbeddedObject>
-					<Id>0</Id>
+					<Id>1637419437894</Id>
 					<Name><![CDATA[airports]]></Name>
 					<X>-450</X><Y>50</Y>
 					<Label><X>10</X><Y>0</Y></Label>
@@ -18572,7 +18572,7 @@ return sum2;]]></Body>
 					</ParameterToDatabaseColumnMapping>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>0</Id>
+					<Id>1637419437897</Id>
 					<Name><![CDATA[pipelines]]></Name>
 					<X>-430</X><Y>200</Y>
 					<Label><X>10</X><Y>0</Y></Label>
@@ -18707,7 +18707,7 @@ return sum2;]]></Body>
 					</ParameterToDatabaseColumnMapping>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>0</Id>
+					<Id>1637419437900</Id>
 					<Name><![CDATA[airplanes]]></Name>
 					<X>-440</X><Y>140</Y>
 					<Label><X>10</X><Y>0</Y></Label>
@@ -19004,7 +19004,7 @@ return sum2;]]></Body>
 					</ParameterToDatabaseColumnMapping>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>0</Id>
+					<Id>1637419437903</Id>
 					<Name><![CDATA[e_airports]]></Name>
 					<X>-280</X><Y>260</Y>
 					<Label><X>10</X><Y>0</Y></Label>
@@ -19066,7 +19066,7 @@ return sum2;]]></Body>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>0</Id>
+					<Id>1637419437906</Id>
 					<Name><![CDATA[e_airplanes]]></Name>
 					<X>-280</X><Y>300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
@@ -19128,7 +19128,7 @@ return sum2;]]></Body>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>0</Id>
+					<Id>1637419437909</Id>
 					<Name><![CDATA[e2_airports]]></Name>
 					<X>-430</X><Y>310</Y>
 					<Label><X>10</X><Y>0</Y></Label>
@@ -19230,7 +19230,7 @@ return sum2;]]></Body>
 					</ParameterToDatabaseColumnMapping>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>0</Id>
+					<Id>1637419437912</Id>
 					<Name><![CDATA[e2_airplanes]]></Name>
 					<X>-430</X><Y>340</Y>
 					<Label><X>10</X><Y>0</Y></Label>
@@ -19799,6 +19799,7 @@ return sum2;]]></Body>
 					<TimeWindowUnits>MONTH</TimeWindowUnits>
 					<TimeWindowExpression><![CDATA[1]]></TimeWindowExpression>
 					<DatasetExpression>
+					<Id>1637419437097</Id>
 					<Expression><![CDATA[my_dataset]]></Expression>
 					<Color>-16711936</Color>
 					<Expression2><![CDATA[totalnumberofParvaz()]]></Expression2>
@@ -19859,6 +19860,7 @@ return sum2;]]></Body>
 					<TimeWindowUnits>MONTH</TimeWindowUnits>
 					<TimeWindowExpression><![CDATA[1]]></TimeWindowExpression>
 					<DatasetExpression>
+					<Id>1637419437113</Id>
 					<Expression><![CDATA[my_dataset]]></Expression>
 					<Color>-14774017</Color>
 					<Expression2><![CDATA[totaldistance()]]></Expression2>
@@ -19919,6 +19921,7 @@ return sum2;]]></Body>
 					<TimeWindowUnits>MONTH</TimeWindowUnits>
 					<TimeWindowExpression><![CDATA[1]]></TimeWindowExpression>
 					<DatasetExpression>
+					<Id>1637419437114</Id>
 					<Expression><![CDATA[my_dataset]]></Expression>
 					<Color>-3137392</Color>
 					<Expression2><![CDATA[totaldistance2()]]></Expression2>
@@ -19979,6 +19982,7 @@ return sum2;]]></Body>
 					<TimeWindowUnits>MONTH</TimeWindowUnits>
 					<TimeWindowExpression><![CDATA[12]]></TimeWindowExpression>
 					<DatasetExpression>
+					<Id>1637419437115</Id>
 					<Expression><![CDATA[my_dataset]]></Expression>
 					<Color>-3137392</Color>
 					<Expression2><![CDATA[meantime()]]></Expression2>
@@ -20036,6 +20040,7 @@ return sum2;]]></Body>
 					</Labels>
 					<ShowLegend>true</ShowLegend>
 					<DataItem>
+					<Id>1637419437116</Id>
 					<Expression><![CDATA[meantime()]]></Expression>
 					<Color>-7667573</Color>
 					<Expression2Flag>true</Expression2Flag>
@@ -43330,6 +43335,7 @@ destination.add( a );]]></AfterStepCode>
 						<Parameter>
 							<Name><![CDATA[newEntity]]></Name>
 							<Value Class="EntityCodeValue">
+								<IsAgentEntity>true</IsAgentEntity>
 								<EntityEmbeddedObject>
 									<ActiveObjectClass>
 										<PackageName><![CDATA[air_tranportation]]></PackageName>
@@ -46140,7 +46146,7 @@ send( c, main);
 
 			<Presentation>
 				<Text>
-					<Id>0</Id>
+					<Id>1637419437930</Id>
 					<Name><![CDATA[text]]></Name>
 					<X>50</X><Y>30</Y>
 					<Label><X>10</X><Y>0</Y></Label>
@@ -46197,16 +46203,183 @@ send( c, main);
 				<FinalDate><![CDATA[1549411200000]]></FinalDate>	
 				<FinalTime><![CDATA[100.0]]></FinalTime>	
 			</ModelTimeProperties>
+			<BypassInitialScreen>false</BypassInitialScreen>
 		</SimulationExperiment>
 		<!--   =========  Optimization Experiment   ========  -->
 		<OptimizationExperiment ActiveObjectClassId="1546810957915">
 			<Id>1625974896303</Id>
 			<Name><![CDATA[Optimization]]></Name>
+			<AdditionalClassCode><![CDATA[     final  String GENES = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOP"+
+            "QRSTUVWXYZ 1234567890, .-;:_!\"#%&/()=?@${[]}";
+     final  Random rand = new Random();
+     final String TARGET = "I love GeeksforGeeks";
+   
+   void print(String str){
+        System.out.println(str);
+    }
+    
+       char mutated_genes() {
+        int len = GENES.length();
+        Random randu = rand;
+        int r = randu.nextInt(len-1);
+        return GENES.charAt(r);
+    }
+
+     String create_gnome() {
+        int len = TARGET.length();
+        String gnome = "";
+        for(int i = 0;i<len;i++)
+            gnome += mutated_genes();
+        return gnome;
+    }
+    
+    class Individual implements Comparable<Individual>
+{
+    String chromosome;
+    int fitness;
+
+    Individual(String chromosome) {
+    this.chromosome = chromosome;
+    fitness = cal_fitness();
+}
+
+    Individual mate(Individual par2) {
+    // chromosome for offspring
+    String child_chromosome = "";
+
+    int len = chromosome.length();
+    for(int i = 0;i<len;i++)
+    {
+        // random probability
+        //Random ran=Main.rand;
+        double p = Math.random();
+       // System.out.println(p);
+        // if prob is less than 0.45, insert gene
+        // from parent 1
+        if(p < 0.45)
+            child_chromosome += chromosome.charAt(i);
+
+            // if prob is between 0.45 and 0.90, insert
+            // gene from parent 2
+        else if(p < 0.90)
+            child_chromosome += par2.chromosome.charAt(i);
+
+            // otherwise insert random gene(mutate),
+            // for maintaining diversity
+        else
+            child_chromosome += mutated_genes();
+    }
+
+    // create new Individual(offspring) using
+    // generated chromosome for offspring
+    return new Individual(child_chromosome);
+}
+
+    int cal_fitness() {
+    //int len = TARGET.size();
+    int fitness = 0;
+
+    for(char c : chromosome.toCharArray())
+    {
+        fitness +=(int)(c);
+
+    }
+        //System.out.println(fitness);
+    return fitness;
+}
+
+    @Override
+    public String toString() {
+        return "Individual{" +
+                "chromosome='" + chromosome + '\'' +
+                ", fitness=" + fitness +
+                '}';
+    }
+
+    @Override
+    public int compareTo(Individual individual) {
+        return this.cal_fitness() - individual.cal_fitness();
+    }
+}]]></AdditionalClassCode>
 			<ClientAreaTopLeft><X>0</X><Y>0</Y></ClientAreaTopLeft>
+			<Import><![CDATA[import java.util.Collections;
+import java.util.Random;
+import java.util.Vector;]]></Import>
 			<CommandLineArguments><![CDATA[]]></CommandLineArguments>
+			<InitialSetupCode><![CDATA[
+ 
+ 
+  int POPULATION_SIZE=100;
+        // current generation
+        int generation = 0;
+
+        Vector<Individual> population = new Vector<>();
+        boolean found = false;
+
+        // create initial population
+        for(int i = 0;i<POPULATION_SIZE;i++)
+        {
+            String gnome = create_gnome();
+            population.add(new Individual(gnome));
+           // System.out.println(population);
+        }
+
+        while(! found)
+        {
+            // sort the population in increasing order of fitness score
+            //sort(population.begin(), population.end());
+            Collections.sort(population);
+            //System.out.println(population.elementAt(1).fitness);
+            // if the individual having lowest fitness score ie.
+            // 0 then we know that we have reached to the target
+            // and break the loop
+            if(population.elementAt(0).fitness <= 0)
+            {
+                found = true;
+                break;
+            }
+
+            // Otherwise generate new offsprings for new generation
+            Vector<Individual> new_generation = new Vector<>();
+
+            // Perform Elitism, that mean 10% of fittest population
+            // goes to the next generation
+            int s = (10*POPULATION_SIZE)/100;
+            for(int i = 0;i<s;i++)
+                new_generation.add(population.elementAt(i));
+
+            // From 50% of fittest population, Individuals
+            // will mate to produce offspring
+            s = (90*POPULATION_SIZE)/100;
+            Random rando = rand;
+            for(int i = 0;i<s;i++)
+            {
+                int len = population.size();
+                int r = rand.nextInt(50);
+                Individual parent1 = population.elementAt(r);
+                r = rando.nextInt(50);
+                Individual parent2 = population.elementAt(r);
+                Individual offspring = parent1.mate(parent2);
+                new_generation.add(offspring);
+               // System.out.println("off:  "+offspring);
+            }
+            population = new_generation;
+            if (generation==2)
+            System.out.println(new_generation);
+             print("Generation: " + generation + "\t");
+            print("String: " +population.elementAt(0).chromosome );
+            print("Fitness: " +population.elementAt(0).fitness );
+           // print("Fitness111: " +population.elementAt(1).fitness );
+
+            generation++;
+        }
+        print("Generation: " + generation + "\t");
+        print("String: " + population.elementAt(0).chromosome +"\t");
+        print("Fitness: "+ population.elementAt(0).fitness + "\n");]]></InitialSetupCode>
 			<MaximumMemory>1024</MaximumMemory>
 			<RandomNumberGenerationType>fixedSeed</RandomNumberGenerationType>
 			<CustomGeneratorCode>new Random()</CustomGeneratorCode>
+			<BeforeEachExperimentRunCode><![CDATA[System.out.println("111");]]></BeforeEachExperimentRunCode>
 			<BeforeSimulationRunCode><![CDATA[set_sourcecity1();
 set_sourcecity2();
 set_sourcecity3();
@@ -46218,6 +46391,8 @@ deleteFrom(e2_airplane)
  .values( r , s , t , v )
  .execute();
      ]]></BeforeSimulationRunCode>
+			<AfterSimulationRunCode><![CDATA[
+System.out.println("1");]]></AfterSimulationRunCode>
 			<SeedValue>1</SeedValue>
 			<SelectionModeForSimultaneousEvents>LIFO</SelectionModeForSimultaneousEvents>
 			<VmArgs><![CDATA[]]></VmArgs>
@@ -47172,7 +47347,8 @@ v = "Zabol";}]]></Body>
 			</Parameter>
 			<ObjectiveFunctionCode><![CDATA[root.meantime()]]></ObjectiveFunctionCode>
 			<Objective>MINIMIZE</Objective>
-			<AfterIterationCode><![CDATA[set_sourcecity(getCurrentObjectiveValue());]]></AfterIterationCode>
+			<AfterIterationCode><![CDATA[System.out.println("11");
+set_sourcecity(getCurrentObjectiveValue());]]></AfterIterationCode>
 			<AllowParallelEvaluations>true</AllowParallelEvaluations>
 			<ReplicationsProperties>
 				<UseReplication>false</UseReplication>
@@ -47206,6 +47382,12 @@ v = "Zabol";}]]></Body>
 		<VersionMajor>8</VersionMajor>
 		<VersionMinor>0</VersionMinor>
 		<VersionBuild>5</VersionBuild>
+    </RequiredLibraryReference>
+    <RequiredLibraryReference>
+		<LibraryName><![CDATA[com.anylogic.libraries.modules.markup_descriptors]]></LibraryName>
+		<VersionMajor>1</VersionMajor>
+		<VersionMinor>0</VersionMinor>
+		<VersionBuild>0</VersionBuild>
     </RequiredLibraryReference>
 </Model>
 </AnyLogicWorkspace>
